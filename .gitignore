@@ -1,0 +1,15 @@
+# Ignore AWS Credentials
+.aws/
+credentials
+*.csv
+
+# Ignore Python Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore Terraform State (contains sensitive info)
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
